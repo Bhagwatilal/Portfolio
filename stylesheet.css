@@ -49,4 +49,25 @@ body
     position: relative;
     width: 100%;
     justify-content: space-between;
+    height: 100vh;
+    background: url(https://t4.ftcdn.net/jpg/05/66/78/37/360_F_566783792_UTiiwyg96ccolrp9kjiPjAl6yjfmtBwB.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10%;
+}
+.home-content
+{
+    max-width: 600px;
+}
+.home-content h3
+{
+    font-size: 32px;
+    font-weight: 700;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
 }
