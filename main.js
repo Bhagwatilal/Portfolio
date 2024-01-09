@@ -1,7 +1,7 @@
-var typed= new typed(".text", {
-    String:["Full Stack Developer", "SPPU Student", "Web Developer"],
-    typeSpeed:100,
-    backSpeed:100,
-    backDelay:1000,
-    loop:true
-})
+var typed= new Typed(".text", {
+    strings: ["Full Stack Developer" , "SPPU Student" , "Web Developer"],
+    typeSpeed: 50,
+    backSpeed: 50,
+    backDelay: 1000,
+    loop: true
+});
