@@ -7,6 +7,7 @@
 
 body {
     color: #ededed;
+    background: #081b29;
 }
 
 .header {
@@ -166,14 +167,14 @@ body {
 }
 .about{
     display: grid;
-    grid-template-columns: reapeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 1.5rem;
 }
 .about-img img
 {
     padding-bottom: 20%;
-    max-width: 630px;
+    max-width: 400px;
     height: auto;
     width: 100%;
     border-radius: 8px;
